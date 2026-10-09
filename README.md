@@ -1,0 +1,3 @@
+# Практична робота 6.1: Базовий State Management у Flutter
+**Варіант 1: Лічильник з історією**
+Таблиця стануДаніДе живутьЧому саме тамПоточне значення лічильника (value)CounterNotifier (App State)Використовується на головному екрані та відображається в історіїСписок дій (history)CounterNotifier (App State)Доступний на двох екранах (CounterScreen та HistoryScreen) і в HistoryBadgeОбраний крок (_selectedStep)_CounterScreenState (Ephemeral State)Потрібен тільки на екрані лічильника для кнопки перемикання 1/5/10Повідомлення про помилку (errorMessage)CounterNotifier (App State)Логіка валідації (не від'ємне значення) належить до бізнес-моделі
